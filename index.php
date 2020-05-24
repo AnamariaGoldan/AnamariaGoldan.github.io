@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
-$user = 'root';
-$pass = '';
-$db = 'tw';
+$host = 'sql7.freemysqlhosting.net';
+$user = 'sql7343022';
+$pass = 'NZKVkwW18G';
+$db = 'tsql7343022w';
 $connection = mysqli_connect($host,$user,$pass,$db);
 $query = "select * from meniu_filtrare";
 $result = mysqli_query($connection, $query);
