@@ -3,7 +3,7 @@
 $host = 'localhost';
 $user = 'root';
 $pass = '';
-$db = 'TW';
+$db = 'tw';
 $connection = mysqli_connect($host,$user,$pass,$db);
 $query = "select * from meniu_filtrare";
 $result = mysqli_query($this->conn, $query);
